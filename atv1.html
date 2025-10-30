@@ -1,31 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <section class="container">
         <div class="tela">
-            <h1>Bem-vindo</h1>
+            <h1> Bem vindo ao site!!!</h1>
             <h2>Seu consultorio está a apenas um clique</h2>
-            <h3>Informe seus dados ao lado e voce podera usar o site</h3>
+            <h3>Informe seus dados ao lado para fazer o cadastro no site</h3>
         </div>
         <div class="login">
             <h1>Cadastro</h1>
         <form action="" method="">
-            <input type="text" name="nome" id="nome" placeholder="nome">
-            <input type="number" name="number" id="number" placeholder="number">
-            <input type="mail" name="mail" id="mail" placeholder="mail">
-            <input type="password" name="password" id="password" placeholder="senha">
-
+            <input type="text" name="Nome" id="Nome" placeholder="Nome">
+            <input type="number" name="Idade" id="Idade" placeholder="Idade">
+            <input type="mail" name="Email" id="Email" placeholder="Email">
+            <input type="password" name="Password" id="Password" placeholder="Senha">
+            <input type="number" name="Telefone"id="Telefone"placeholder="Telefone">
+            <input type="radio" name="sexo" id="Masculino" value="Masculino">
+            <label for="">Masculino</label>
+            <input type="radio" name="sexo" id="feminino" value="feminino">
+            <label for="">Feminino          </label>
+            <select name="Estado" id="Estado" class="estados"> 
+                <option value="" disabled selected>
+                    <p>Selecione um estado</p>
+                </option>
+                <option value="São Paulo">São Paulo</option>
+                <option value="Minas Gerais">Minas Gerais</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                <option value="Rio Grande do sul">Rio Grande do sul</option>
+                <option value="Bahia">Bahia</option>
+                <option value="Parana">Parana</option>
+                <option value="Santa Catarina">Santa Catarina</option>
+                <option value="Amazonas">Amazonas</option>
+                <option value="Acre">Acre</option>
+            </select>
+            <button class="but">
+                <p>Enviar</p> 
+            </button>
         </form>
-
-
-
-
+        </form>
     </section>
 </body>
 </html>
