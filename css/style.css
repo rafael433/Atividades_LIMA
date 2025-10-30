@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+html,
+body{
+width: 100%;
+height: 100%;
+background-color: rgb(252, 252, 252);
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tela,
+.login{
+width: 50%;
+height: 100%;
+}
+.container{
+width: 90%;
+height: 80%;
+background-color: rgb(107, 145, 211);
+display: flex;
+border-radius: 3%;
+box-shadow:0 0 10px cornflowerblue ;
+overflow: hidden;
+padding: 20px;
+}
+.tela{
+padding:50px ;
+display: flex;
+justify-content: ;
+flex-direction: column;
+background-color: rgb(85, 85, 188);
+border-radius: 3%;
+justify-content: flex-start;
+}
+.login{
+
+padding: 50px;
+justify-content: center;
+display:flex;
+flex-direction: column;
+}
+.login h1{
+color: rgb(31, 30, 30);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+justify-content: flex-start;
+}
+.tela h2{
+justify-content: center;
+
+
+
+}
+
